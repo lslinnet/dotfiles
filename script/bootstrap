@@ -121,6 +121,10 @@ install_dotfiles () {
 }
 
 setup_gitconfig
+
+info "Installing oh my zsh!\n"
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
 install_dotfiles
 
 # If we are on a mac, lets install and setup homebrew
