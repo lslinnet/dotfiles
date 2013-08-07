@@ -46,6 +46,8 @@ ZSH_THEME="robbyrussell"
 
 DISABLE_CORRECTION="true"
 
-plugins=(git)
+plugins=(git extract)
 
 source $ZSH/oh-my-zsh.sh
+
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
