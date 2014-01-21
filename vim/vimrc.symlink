@@ -1,0 +1,5 @@
+syntax on
+
+" Wrap gitcommit file type at the appropriate length
+filetype indent plugin on
+

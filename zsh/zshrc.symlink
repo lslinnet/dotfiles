@@ -51,3 +51,6 @@ plugins=(git extract)
 source $ZSH/oh-my-zsh.sh
 
 export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=/usr/local/opt/ruby193/bin:$PATH
